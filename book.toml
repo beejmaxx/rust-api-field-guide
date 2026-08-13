@@ -13,7 +13,7 @@ edition = "2024"
 
 [output.html]
 default-theme = "light"
-preferred-dark-theme = "ayu"
+preferred-dark-theme = "navy"
 additional-css = ["theme/field-guide.css"]
 git-repository-url = "https://github.com/beejmaxx/rust-api-field-guide"
 edit-url-template = "https://github.com/beejmaxx/rust-api-field-guide/edit/main/{path}"
