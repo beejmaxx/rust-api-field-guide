@@ -24,3 +24,20 @@
   padding-inline-end: 1.25em;
   border-inline-end: 1px solid var(--table-border-color);
 }
+
+/*
+ * mdBook normally swaps the full-height edge controls for bottom-of-page
+ * controls below 1080px, and below 1380px whenever the sidebar is open. Keep
+ * both edge controls available until the layout is genuinely mobile.
+ */
+@media only screen and (min-width: 701px) {
+  .nav-wide-wrapper,
+  #mdbook-sidebar-toggle-anchor:checked ~ .page-wrapper .nav-wide-wrapper {
+    display: block !important;
+  }
+
+  .nav-wrapper,
+  #mdbook-sidebar-toggle-anchor:checked ~ .page-wrapper .nav-wrapper {
+    display: none !important;
+  }
+}
