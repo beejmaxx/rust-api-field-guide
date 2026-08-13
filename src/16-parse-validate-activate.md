@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">Pingora, rustls, clap, and domain newtypes move failure to the earliest useful boundary.</p>
 
-<div class="chapter-meta"><span>Intermediate</span><span>55 min read</span><span>pingora::ServerConf · rustls::ConfigBuilder · clap::Parser · uuid::Uuid</span></div>
+<div class="chapter-meta"><span>Intermediate</span><span>pingora::ServerConf · rustls::ConfigBuilder · clap::Parser · uuid::Uuid</span></div>
 
 ## Deserialized does not mean usable
 

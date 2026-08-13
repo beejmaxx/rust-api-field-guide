@@ -35,6 +35,22 @@
 - [Lazy programs are values](17-lazy-programs-are-values.md)
 - [Compatibility at ecosystem scale](18-ecosystem-scale-compatibility.md)
 
+# Part VI · API case studies
+
+- [How to study a real API](case-studies/README.md)
+  - [`http::Request<T>`: separate head from body](case-studies/http-request.md)
+  - [Reqwest: progressive convenience](case-studies/reqwest-client.md)
+  - [Tower: one protocol for middleware](case-studies/tower-service-layer.md)
+  - [Tower Retry: replay is a capability](case-studies/tower-retry.md)
+  - [Serde: put a data model in the middle](case-studies/serde-data-model.md)
+  - [Axum: handler arguments are a program](case-studies/axum-extractors.md)
+  - [rustls: make unsafe configuration unrepresentable](case-studies/rustls-typestate.md)
+  - [Bytes: cheap views over shared storage](case-studies/bytes-shared-storage.md)
+  - [Rayon: parallelism as an iterator dialect](case-studies/rayon-parallel-iterators.md)
+  - [Clap: one schema, two authoring styles](case-studies/clap-schema.md)
+  - [ArcSwap: choose the lifetime of a read](case-studies/arc-swap.md)
+  - [thiserror and anyhow: errors by audience](case-studies/error-audiences.md)
+
 # Appendix
 
 - [How this evidence was selected](19-research-method.md)

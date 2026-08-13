@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">Polars, Nushell, Typst, and parser libraries expose plans that can be inspected before execution.</p>
 
-<div class="chapter-meta"><span>Advanced</span><span>55 min read</span><span>polars::LazyFrame · nu_protocol::PipelineData · typst::World · winnow::Parser</span></div>
+<div class="chapter-meta"><span>Advanced</span><span>polars::LazyFrame · nu_protocol::PipelineData · typst::World · winnow::Parser</span></div>
 
 ## Delay work to preserve optimization
 

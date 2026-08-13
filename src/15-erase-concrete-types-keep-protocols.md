@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">Iced, Tower, and Bevy show that type erasure need not erase everything useful.</p>
 
-<div class="chapter-meta"><span>Advanced</span><span>60 min read</span><span>iced::Element · tower::util::BoxService · bevy::Plugin</span></div>
+<div class="chapter-meta"><span>Advanced</span><span>iced::Element · tower::util::BoxService · bevy::Plugin</span></div>
 
 ## The concrete widget type is accidental
 

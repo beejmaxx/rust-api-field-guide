@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">thiserror and reqwest illustrate two different promises a library can make.</p>
 
-<div class="chapter-meta"><span>Intermediate</span><span>55 min read</span><span>thiserror · reqwest::Error · std::error::Error</span></div>
+<div class="chapter-meta"><span>Intermediate</span><span>thiserror · reqwest::Error · std::error::Error</span></div>
 
 ## Errors are part of the public API
 

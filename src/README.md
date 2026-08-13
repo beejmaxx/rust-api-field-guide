@@ -2,13 +2,15 @@
 
 <p class="chapter-subtitle">A practical guide to designing Rust APIs, grounded in the standard library, a reproducible study of GitHub's top 100 Rust repositories, and 40 purpose-built libraries.</p>
 
-<div class="chapter-meta"><span>19 chapters</span><span>140 repositories studied</span><span>About 17 hours</span></div>
+<div class="chapter-meta"><span>19 concept chapters</span><span>12 guided case studies</span><span>140 repositories surveyed</span></div>
 
 ## What this book teaches
 
 Rust API design is the art of turning behavioral promises into types. A signature can describe ownership, mutation, absence, failure, concurrency, extensibility, and compatibility. The best APIs do this without making ordinary use feel ceremonial.
 
 This book studies those choices in real libraries and production systems. We begin with `Option` and `Result`, work through ownership and iterators, then examine builders, Serde, Tokio, Axum, Tower, retry, and long-term API evolution. A research-derived final part compares Bevy, Polars, egui, Iced, Pingora, Tauri, Nushell, rustls, and other mature projects. The aim is not to memorize patterns. It is to develop judgment about tradeoffs.
+
+Part VI contains the source-reading material: twelve substantial repository case studies with caller examples, public signatures, implementation trails pinned to exact commits, minimal rebuilds, and design questions. The wider 140-repository survey informs selection and comparison; it is not represented as 140 completed deep case studies.
 
 > **Prerequisites**
 >

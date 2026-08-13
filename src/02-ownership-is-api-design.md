@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">File, Path, and Cow make lifetime and storage choices visible without making callers suffer.</p>
 
-<div class="chapter-meta"><span>Foundation</span><span>45 min read</span><span>std::fs::File · std::Path · std::borrow::Cow</span></div>
+<div class="chapter-meta"><span>Foundation</span><span>std::fs::File · std::Path · std::borrow::Cow</span></div>
 
 ## Three questions for every parameter
 

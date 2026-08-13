@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">Tokio and futures-rs keep low-level poll contracts separate from everyday methods.</p>
 
-<div class="chapter-meta"><span>Intermediate</span><span>60 min read</span><span>tokio::io::AsyncRead · AsyncReadExt · futures::Stream · StreamExt</span></div>
+<div class="chapter-meta"><span>Intermediate</span><span>tokio::io::AsyncRead · AsyncReadExt · futures::Stream · StreamExt</span></div>
 
 ## Async is a return-type decision
 

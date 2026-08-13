@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">Axum turns ordinary function parameters and return values into an extensible HTTP vocabulary.</p>
 
-<div class="chapter-meta"><span>Intermediate</span><span>60 min read</span><span>axum::FromRequest · FromRequestParts · IntoResponse · Router&lt;S&gt;</span></div>
+<div class="chapter-meta"><span>Intermediate</span><span>axum::FromRequest · FromRequestParts · IntoResponse · Router&lt;S&gt;</span></div>
 
 ## The handler is the API
 

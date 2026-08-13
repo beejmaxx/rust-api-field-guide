@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">Tower and Reqwest make a hidden ownership problem part of the design.</p>
 
-<div class="chapter-meta"><span>Advanced</span><span>70 min read</span><span>tower::retry::Policy · reqwest::Request::try_clone · FnMut attempt factories</span></div>
+<div class="chapter-meta"><span>Advanced</span><span>tower::retry::Policy · reqwest::Request::try_clone · FnMut attempt factories</span></div>
 
 ## Retry means replay
 

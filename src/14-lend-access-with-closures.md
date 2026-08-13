@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">egui and ArcSwap constrain borrowed access so synchronization details cannot escape.</p>
 
-<div class="chapter-meta"><span>Intermediate</span><span>50 min read</span><span>egui::Context · arc_swap::Guard · std::thread::scope</span></div>
+<div class="chapter-meta"><span>Intermediate</span><span>egui::Context · arc_swap::Guard · std::thread::scope</span></div>
 
 ## Returning a guard exports your locking policy
 

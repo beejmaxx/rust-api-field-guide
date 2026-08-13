@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">From, TryFrom, AsRef, and Borrow make boundaries flexible without becoming vague.</p>
 
-<div class="chapter-meta"><span>Foundation</span><span>40 min read</span><span>From / Into · TryFrom / TryInto · AsRef · Borrow</span></div>
+<div class="chapter-meta"><span>Foundation</span><span>From / Into · TryFrom / TryInto · AsRef · Borrow</span></div>
 
 ## Do not invent a private conversion language
 

@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">http::Request&lt;T&gt; separates stable protocol structure from caller-defined data.</p>
 
-<div class="chapter-meta"><span>Intermediate</span><span>55 min read</span><span>http::Request&lt;T&gt; · http::request::Builder · HashMap::entry</span></div>
+<div class="chapter-meta"><span>Intermediate</span><span>http::Request&lt;T&gt; · http::request::Builder · HashMap::entry</span></div>
 
 ## The constructor that grew too large
 

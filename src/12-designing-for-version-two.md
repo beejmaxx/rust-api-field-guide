@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">Privacy, non-exhaustive types, and sealed traits preserve room for APIs to grow.</p>
 
-<div class="chapter-meta"><span>Advanced</span><span>65 min read</span><span>#[non_exhaustive] · sealed traits · private error kinds · feature flags</span></div>
+<div class="chapter-meta"><span>Advanced</span><span>#[non_exhaustive] · sealed traits · private error kinds · feature flags</span></div>
 
 ## Public means promised
 

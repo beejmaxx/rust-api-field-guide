@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">Tauri, bitflags, Serde, and the Rust standard library reserve different kinds of future change.</p>
 
-<div class="chapter-meta"><span>Advanced</span><span>60 min read</span><span>tauri::RunEvent · bitflags! · Serde attributes · feature flags</span></div>
+<div class="chapter-meta"><span>Advanced</span><span>tauri::RunEvent · bitflags! · Serde attributes · feature flags</span></div>
 
 ## Open domains need open matching
 

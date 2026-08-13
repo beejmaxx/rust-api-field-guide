@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">Bevy, Polars, and Iced look fluent for three different reasons.</p>
 
-<div class="chapter-meta"><span>Intermediate</span><span>55 min read</span><span>bevy::App · polars::LazyFrame · iced::Application</span></div>
+<div class="chapter-meta"><span>Intermediate</span><span>bevy::App · polars::LazyFrame · iced::Application</span></div>
 
 ## Two chains that mean different things
 

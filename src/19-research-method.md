@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">A reproducible popularity snapshot, a curated control cohort, and important limits on what the sample proves.</p>
 
-<div class="chapter-meta"><span>Foundation</span><span>20 min read</span><span>100 GitHub repositories · 40 curated libraries · snapshot: 2026-08-13</span></div>
+<div class="chapter-meta"><span>Foundation</span><span>100 GitHub repositories · 40 curated libraries · snapshot: 2026-08-13</span></div>
 
 ## The top-100 snapshot
 
@@ -43,6 +43,20 @@ Examples include Serde, Clap, syn, Rayon, Crossbeam, bytes, bstr, http, Tower, r
 The sample does not measure usability experimentally, survey downstream users, or score repositories. It cannot show that one receiver style, error representation, or dispatch strategy wins universally. Repository language classification is approximate, and GitHub search ranking can be influenced by trends unrelated to Rust library use.
 
 The book therefore presents contextual heuristics. The most valuable finding is often a contrast: two mature projects choose different APIs because their values have different identity, lifecycle, performance, or compatibility constraints.
+
+## Depth map
+
+“Surveyed” and “case studied” are different evidence levels in this book.
+
+| Level | Count | What was done | Where to read it |
+|---|---:|---|---|
+| Corpus verification | 140 | Repository identity, default branch, pinned commit, Cargo manifests, and library-root inventory | This appendix |
+| Comparative source reading | Dozens | Selected public signatures and implementation paths compared to form the concept chapters | Parts I–V |
+| Guided deep case study | 12 | Caller example, signature analysis, implementation trail, minimal rebuild, and design questions | Part VI |
+
+The twelve current deep studies cover `http`, Reqwest, Tower Service/Layer, Tower Retry, Serde, Axum, rustls, Bytes, Rayon, Clap, ArcSwap, thiserror, and anyhow. Some pages pair closely related crates, so twelve studies cover thirteen repositories. The remaining corpus is research material and a queue for future case studies, not hidden finished prose.
+
+This distinction matters because repository cloning is not analysis. Finding `src/lib.rs` is not understanding a supported API. A deep study requires identifying the intended caller, reading documentation and examples, tracing at least one path, and checking the design against plausible alternatives.
 
 ## Read the source
 

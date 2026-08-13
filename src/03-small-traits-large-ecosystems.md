@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">Iterator demonstrates how one required method can support a language-wide vocabulary.</p>
 
-<div class="chapter-meta"><span>Foundation</span><span>50 min read</span><span>std::Iterator · IntoIterator · FromIterator</span></div>
+<div class="chapter-meta"><span>Foundation</span><span>std::Iterator · IntoIterator · FromIterator</span></div>
 
 ## The irreducible operation
 

@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">Tower standardizes async operations so middleware can be written once and composed everywhere.</p>
 
-<div class="chapter-meta"><span>Advanced</span><span>75 min read</span><span>tower::Service · tower::Layer · ServiceBuilder</span></div>
+<div class="chapter-meta"><span>Advanced</span><span>tower::Service · tower::Layer · ServiceBuilder</span></div>
 
 ## A common shape for operations
 

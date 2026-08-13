@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">Option and Result show how a return type can document an entire operation.</p>
 
-<div class="chapter-meta"><span>Foundation</span><span>35 min read</span><span>std::Option · std::Result</span></div>
+<div class="chapter-meta"><span>Foundation</span><span>std::Option · std::Result</span></div>
 
 ## Begin at the boundary
 

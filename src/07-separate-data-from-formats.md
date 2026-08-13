@@ -2,7 +2,7 @@
 
 <p class="chapter-subtitle">Serde divides responsibility so data types and wire formats can evolve independently.</p>
 
-<div class="chapter-meta"><span>Intermediate</span><span>65 min read</span><span>serde::Serialize · serde::Deserialize · serde::Serializer · Visitor</span></div>
+<div class="chapter-meta"><span>Intermediate</span><span>serde::Serialize · serde::Deserialize · serde::Serializer · Visitor</span></div>
 
 ## The matrix problem
 
