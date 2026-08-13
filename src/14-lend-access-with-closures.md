@@ -1,4 +1,4 @@
-# 14. Lend access with closures
+# Lend access with closures
 
 <p class="chapter-subtitle">egui and ArcSwap constrain borrowed access so synchronization details cannot escape.</p>
 

@@ -1,4 +1,4 @@
-# 4. A shared conversion vocabulary
+# A shared conversion vocabulary
 
 <p class="chapter-subtitle">From, TryFrom, AsRef, and Borrow make boundaries flexible without becoming vague.</p>
 

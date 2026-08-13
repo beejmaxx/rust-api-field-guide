@@ -1,4 +1,4 @@
-# 6. Errors for callers
+# Errors for callers
 
 <p class="chapter-subtitle">thiserror and reqwest illustrate two different promises a library can make.</p>
 

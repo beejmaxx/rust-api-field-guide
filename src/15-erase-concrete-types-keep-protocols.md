@@ -1,4 +1,4 @@
-# 15. Erase concrete types, keep protocols
+# Erase concrete types, keep protocols
 
 <p class="chapter-subtitle">Iced, Tower, and Bevy show that type erasure need not erase everything useful.</p>
 

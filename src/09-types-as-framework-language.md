@@ -1,4 +1,4 @@
-# 9. Types as framework language
+# Types as framework language
 
 <p class="chapter-subtitle">Axum turns ordinary function parameters and return values into an extensible HTTP vocabulary.</p>
 

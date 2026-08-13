@@ -1,4 +1,4 @@
-# 8. Async capabilities
+# Async capabilities
 
 <p class="chapter-subtitle">Tokio and futures-rs keep low-level poll contracts separate from everyday methods.</p>
 

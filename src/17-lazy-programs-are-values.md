@@ -1,4 +1,4 @@
-# 17. Lazy programs are values
+# Lazy programs are values
 
 <p class="chapter-subtitle">Polars, Nushell, Typst, and parser libraries expose plans that can be inspected before execution.</p>
 

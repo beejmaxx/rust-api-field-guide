@@ -1,4 +1,4 @@
-# 12. Designing for version two
+# Designing for version two
 
 <p class="chapter-subtitle">Privacy, non-exhaustive types, and sealed traits preserve room for APIs to grow.</p>
 

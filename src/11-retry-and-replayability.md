@@ -1,4 +1,4 @@
-# 11. Retry and replayability
+# Retry and replayability
 
 <p class="chapter-subtitle">Tower and Reqwest make a hidden ownership problem part of the design.</p>
 

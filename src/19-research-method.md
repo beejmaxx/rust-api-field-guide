@@ -1,4 +1,4 @@
-# 19. How this evidence was selected
+# How this evidence was selected
 
 <p class="chapter-subtitle">A reproducible popularity snapshot, a curated control cohort, and important limits on what the sample proves.</p>
 

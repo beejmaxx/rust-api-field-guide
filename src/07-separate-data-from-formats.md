@@ -1,4 +1,4 @@
-# 7. Separate data from formats
+# Separate data from formats
 
 <p class="chapter-subtitle">Serde divides responsibility so data types and wire formats can evolve independently.</p>
 

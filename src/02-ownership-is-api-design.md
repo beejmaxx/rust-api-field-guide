@@ -1,4 +1,4 @@
-# 2. Ownership is API design
+# Ownership is API design
 
 <p class="chapter-subtitle">File, Path, and Cow make lifetime and storage choices visible without making callers suffer.</p>
 

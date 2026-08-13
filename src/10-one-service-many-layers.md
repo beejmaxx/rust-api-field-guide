@@ -1,4 +1,4 @@
-# 10. One service, many layers
+# One service, many layers
 
 <p class="chapter-subtitle">Tower standardizes async operations so middleware can be written once and composed everywhere.</p>
 

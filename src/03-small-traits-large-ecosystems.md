@@ -1,4 +1,4 @@
-# 3. Small traits, large ecosystems
+# Small traits, large ecosystems
 
 <p class="chapter-subtitle">Iterator demonstrates how one required method can support a language-wide vocabulary.</p>
 

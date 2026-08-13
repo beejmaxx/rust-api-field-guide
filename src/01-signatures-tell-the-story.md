@@ -1,4 +1,4 @@
-# 1. Signatures tell the story
+# Signatures tell the story
 
 <p class="chapter-subtitle">Option and Result show how a return type can document an entire operation.</p>
 

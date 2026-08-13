@@ -1,4 +1,4 @@
-# 16. Parse, validate, activate
+# Parse, validate, activate
 
 <p class="chapter-subtitle">Pingora, rustls, clap, and domain newtypes move failure to the earliest useful boundary.</p>
 

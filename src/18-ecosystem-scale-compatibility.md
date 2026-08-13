@@ -1,4 +1,4 @@
-# 18. Compatibility at ecosystem scale
+# Compatibility at ecosystem scale
 
 <p class="chapter-subtitle">Tauri, bitflags, Serde, and the Rust standard library reserve different kinds of future change.</p>
 

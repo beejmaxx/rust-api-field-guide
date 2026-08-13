@@ -1,4 +1,4 @@
-# 5. Builders and typed payloads
+# Builders and typed payloads
 
 <p class="chapter-subtitle">http::Request&lt;T&gt; separates stable protocol structure from caller-defined data.</p>
 

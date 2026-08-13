@@ -1,4 +1,4 @@
-# 13. Fluent APIs have ownership
+# Fluent APIs have ownership
 
 <p class="chapter-subtitle">Bevy, Polars, and Iced look fluent for three different reasons.</p>
 
