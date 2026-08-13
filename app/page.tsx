@@ -1,4 +1,20 @@
 import { useEffect, useMemo, useState } from "react";
+import { Highlight, Prism, type PrismTheme } from "prism-react-renderer";
+
+const bookCodeTheme: PrismTheme = {
+  plain: { color: "#2d333b", backgroundColor: "#f6f8fa" },
+  styles: [
+    { types: ["comment", "prolog", "doctype", "cdata"], style: { color: "#6e7781", fontStyle: "italic" } },
+    { types: ["keyword", "control", "directive"], style: { color: "#9a2f58", fontWeight: "600" } },
+    { types: ["function"], style: { color: "#8250df" } },
+    { types: ["class-name", "builtin", "type", "trait"], style: { color: "#0550ae" } },
+    { types: ["string", "char"], style: { color: "#0a6b3b" } },
+    { types: ["number", "boolean"], style: { color: "#953800" } },
+    { types: ["macro", "property", "constant"], style: { color: "#116329" } },
+    { types: ["operator", "punctuation"], style: { color: "#57606a" } },
+    { types: ["lifetime", "symbol"], style: { color: "#986801" } },
+  ],
+};
 
 type Section = {
   title: string;
@@ -20,6 +36,23 @@ type Chapter = {
   sections: Section[];
   sources: { label: string; url: string }[];
 };
+
+function RustCode({ code }: { code: string }) {
+  const [copied, setCopied] = useState(false);
+  const copy = async () => {
+    await navigator.clipboard.writeText(code);
+    setCopied(true);
+    window.setTimeout(() => setCopied(false), 1400);
+  };
+  return <div className="code-block">
+    <div className="code-toolbar"><b>Rust</b><button onClick={copy} aria-label="Copy Rust code">{copied ? "Copied" : "Copy"}</button></div>
+    <Highlight prism={Prism} theme={bookCodeTheme} code={code.trim()} language="rust">
+      {({ className, style, tokens, getLineProps, getTokenProps }) => <pre className={className} style={style}>
+        <code>{tokens.map((line, i) => <span {...getLineProps({ line })} key={i} className="code-line">{line.map((token, key) => <span {...getTokenProps({ token })} key={key}/>)}</span>)}</code>
+      </pre>}
+    </Highlight>
+  </div>;
+}
 
 const chapters: Chapter[] = [
   {
@@ -324,7 +357,7 @@ function ChapterPage({ chapter }: { chapter: Chapter }) {
       {chapter.sections.map((section, i) => <section id={`section-${i+1}`} key={section.title}>
         <h2>{section.title}</h2>
         {section.paragraphs?.map((p,j)=><p key={j}>{p}</p>)}
-        {section.code && <div className="code-block"><div><span></span><span></span><span></span><b>Rust</b></div><pre><code>{section.code}</code></pre></div>}
+        {section.code && <RustCode code={section.code}/>} 
         {section.note && <aside className="callout"><b>Design note</b><p>{section.note}</p></aside>}
         {section.bullets && <ul className="rule-list">{section.bullets.map(b=><li key={b}><span>✓</span>{b}</li>)}</ul>}
       </section>)}
