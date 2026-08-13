@@ -24,3 +24,36 @@
   padding-inline-end: 1.25em;
   border-inline-end: 1px solid var(--table-border-color);
 }
+
+/* Every edition uses the same compact switcher in mdBook's native toolbar. */
+.edition-switcher {
+  display: inline-flex;
+  align-items: center;
+  height: var(--menu-bar-height);
+  margin-inline-end: 0.4rem;
+}
+
+.edition-switcher select {
+  max-width: 12.5rem;
+  padding: 0.3rem 1.8rem 0.3rem 0.55rem;
+  border: 1px solid var(--table-border-color);
+  border-radius: 0.25rem;
+  color: var(--fg);
+  background: var(--bg);
+  font: inherit;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.edition-note {
+  margin-block: 1.5em 2.25em;
+  padding: 1em 1.25em;
+  border-inline-start: 0.3rem solid var(--links);
+  background: var(--quote-bg);
+}
+
+@media (max-width: 700px) {
+  .edition-switcher select {
+    width: 7.8rem;
+  }
+}

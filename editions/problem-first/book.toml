@@ -1,12 +1,9 @@
 [book]
-title = "Rust API Field Guide"
+title = "Rust API Field Guide · Problem-first"
 authors = ["Bijan"]
-description = "Learn idiomatic Rust API design through real interfaces from the standard library and mature open-source projects."
+description = "Learn Rust API design by watching reasonable interfaces fail under new requirements."
 language = "en"
 src = "src"
-
-[build]
-build-dir = "book"
 
 [rust]
 edition = "2024"
@@ -17,18 +14,12 @@ preferred-dark-theme = "navy"
 additional-css = ["theme/field-guide.css"]
 additional-js = ["theme/edition-switcher.js"]
 git-repository-url = "https://github.com/beejmaxx/rust-api-field-guide"
-edit-url-template = "https://github.com/beejmaxx/rust-api-field-guide/edit/main/{path}"
-site-url = "/rust-api-field-guide/"
-cname = ""
+site-url = "/rust-api-field-guide/editions/problem-first/"
 
 [output.html.search]
 enable = true
 limit-results = 30
 use-boolean-and = true
-boost-title = 2
-boost-hierarchy = 1
-boost-paragraph = 1
-expand = true
 heading-split-level = 2
 
 [output.html.fold]
