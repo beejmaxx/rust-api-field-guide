@@ -22,16 +22,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Install mdBook
+        uses: peaceiris/actions-mdbook@v2
         with:
-          node-version: 22
-          cache: npm
-      - run: npm ci
-      - run: npm run build
+          mdbook-version: '0.5.3'
+      - run: mdbook build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: book
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4

@@ -16,6 +16,7 @@
 # next.js
 /.next/
 /.vinext/
+/.vite/
 /out/
 
 # misc
@@ -35,6 +36,7 @@ yarn-error.log*
 .vercel
 
 /dist/
+/book/
 /.wrangler/
 /outputs/
 /work/
